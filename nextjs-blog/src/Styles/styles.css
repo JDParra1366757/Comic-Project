@@ -1,0 +1,204 @@
+.container {
+    min-height: 100vh;
+    min-width: 200vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://moesucks.files.wordpress.com/2018/04/persona-5-the-animation-0104.jpg");
+    background-size: 110% 140%;
+    background-position: 0% 0%;  
+  }
+
+  main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer img {
+    margin-left: 0.5rem;
+  }
+
+  footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    color: #eaeaea;
+    text-decoration: none;
+  }
+
+  .title a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+
+  .title a:hover,
+  .title a:focus,
+  .title a:active {
+    text-decoration: underline;
+  }
+
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    color: #eaeaea;;
+    font-family: serif;
+  }
+
+  .title,
+  .description {
+    text-align: center;
+    color: #eaeaea;
+    font-family: serif;
+  }
+
+  .description {
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+
+  code {
+    background: #052cd6;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    max-width: 800px;
+    margin-top: 3rem;
+  }
+
+  .card3 {
+    margin: 1rem;
+    flex-basis: 45%;
+    padding: 1.5rem;
+    text-align: center;
+    color: #0fbfd6;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    fill: 1px solid #eaeaea;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    background-image: url("https://www.color-hex.com/palettes/32325.png");
+  }
+
+  .card4 {
+    margin: 1rem;
+    flex-basis: 45%;
+    padding: 1.5rem;
+    text-align: center;
+    color: #fffc48;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    fill: 1px solid #eaeaea;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    background-image: url("https://www.color-hex.com/palettes/32325.png");
+  }
+
+  .card5 {
+    margin: 1rem;
+    flex-basis: 45%;
+    padding: 1.5rem;
+    text-align: center;
+    color: #fa0f0f;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    fill: 1px solid #eaeaea;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    background-image: url("https://www.color-hex.com/palettes/32325.png");}
+
+  .card3:hover,
+  .card3:focus,
+  .card3:active {
+    color: #ffffff00;
+    border-color: #3387e7;
+    text-decoration: underline;
+    background-image: url("https://i.ytimg.com/vi/-N9nV6XQ3c4/maxresdefault.jpg");
+    background-position: 50% 25%;
+    background-size: cover;
+  }
+
+  .card4:hover,
+  .card4:focus,
+  .card4:active {
+    color: #ffffff00;
+    border-color: #f3ff4f;
+    text-decoration: #ffffff00;
+    background-image: url("https://i.ytimg.com/vi/R0Xx80K55Ug/maxresdefault.jpg");
+    background-position: 50% 25%;
+    background-size: cover;
+  }
+
+  .card5:hover,
+  .card5:focus,
+  .card5:active {
+    color: #ffffff00;
+    border-color: #f30000;
+    text-decoration: underline;
+    background-image: url("https://i.ytimg.com/vi/aGWShuEptLM/maxresdefault.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+
+
+  .card h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
+  .logo {
+    height: 1em;
+  }
+
+  @media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+      sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
