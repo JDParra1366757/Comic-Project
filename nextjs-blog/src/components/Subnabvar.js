@@ -16,7 +16,7 @@ const Nav = styled.nav`
     align-items: center;
 `
 const StyledLink = styled.a`
-    padding: 0rem 2rem;
+    padding: 0rem 10rem;
     color: blue;
 `
 
