@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@craco/craco": "^6.1.1",
     "babel-plugin-styled-components": "^1.12.0",
     "components": "^0.1.0",
     "next": "^10.0.0",
