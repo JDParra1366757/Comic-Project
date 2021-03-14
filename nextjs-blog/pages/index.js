@@ -9,7 +9,7 @@ export default function Home() {
         <title>Demonic Coompendium</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Navbar></Navbar>
     </div>
       )
 }
