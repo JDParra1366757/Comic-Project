@@ -25,8 +25,14 @@ const Navbar = () => {
     return (
         <Nav>
             <div>
-               <Link  href="/" passHref>
-                    <StyledLink>Spiritbreakers</StyledLink>
+               <Link  href="/persona3" passHref>
+                    <StyledLink>Persona 3</StyledLink>
+               </Link>
+               <Link  href="/persona4" passHref>
+                    <StyledLink>Persona 4</StyledLink>
+               </Link>
+               <Link  href="/persona5" passHref>
+                    <StyledLink>Persona 5</StyledLink>
                </Link>
             </div>
         </Nav>

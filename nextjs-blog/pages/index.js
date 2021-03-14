@@ -19,11 +19,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Demonic Coompendium</title>
+        <title>Spiritbreakers</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
-        <Heading>NEXT</Heading>
+        <Heading classname="text-red-500">NEXT</Heading>
       </Hero>
     </>
       )
