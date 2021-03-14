@@ -18,6 +18,8 @@ const StyledLink = styled.a`
     padding: 0rem 2rem;
     font-size: 20px;
     color: black;
+    font-weight: bold;
+    text-decoration-line: underline;
 `
 
 const Footer = ({linkprev, linknext}) => {
