@@ -28,6 +28,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
+           <a href="/persona3" className="card3">
+             dumdum
+          </a>
       </Hero>
     </>
       )
