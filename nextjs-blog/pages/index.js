@@ -7,8 +7,13 @@ const Hero = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background-image: url('practiceherop.jpg');  
+  background-size: 100% 100%;
+  background-repeat: no repeat;
+  background-position: left;
 `
+//4000*2000 parecer ser mas del doble y el circulo se apachurra
+
 const Heading = styled.h1`
   color: #000;
   font-size: 10rem;

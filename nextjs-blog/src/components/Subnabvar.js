@@ -9,9 +9,10 @@ const Nav = styled.nav`
     background-size: 100% 100%;
     background-repeat: no repeat;
     background-position: left;
-    color: black;
+    color: white;
+    height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 `
 const StyledLink = styled.a`

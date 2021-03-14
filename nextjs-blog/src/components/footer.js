@@ -3,7 +3,10 @@ import styled from 'styled-components'
 import Link from 'next/link'
 
 const FooterSection = styled.div`
-    background: black;
+    background-image: url('practiceheadet.jpg');
+    background-size: 100% 100%;
+    background-repeat: no repeat;
+    background-position: left;
     color: white;
     height: 60px;
     display: flex;
@@ -12,7 +15,7 @@ const FooterSection = styled.div`
 `
 const StyledLink = styled.a`
     padding: 0rem 2rem;
-    color: white;
+    color: blue;
 `
 
 const Footer = () => {
