@@ -88,9 +88,9 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 
-  max-width: 800px;
+  max-height: 800px;
   margin-top: 3rem;
 }
 
@@ -150,18 +150,91 @@ code {
   fill: 0px solid #eaeaea;
   transition: color 0.15s ease, border-color 0.15s ease;
   background-image: url('public/hurricanecomic1.jpg');
-  background-size:cover;
+  background-size:cover;}
+
+  .cardfinala {
+    margin: 10px;
+    flex-basis: 45%;
+    padding: 200px 150px;
+    text-align: center;
+    color: #0fbfd600;
+    text-decoration: none;
+    border: 0px solid #eaeaea;
+    border-radius: 0px;
+    fill: 0px solid #eaeaea;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    background-image: url('public/hurricanecomic4.jpg');
+    background-size: 100% 100%;
+  }
+  
+  .cardpreva {
+    margin: 10px;
+    flex-basis: 45%;
+    padding: 200px 150px;
+    text-align: center;
+    color: #0fbfd600;
+    text-decoration: none;
+    border: 0px solid #eaeaea;
+    border-radius: 0px;
+    fill: 0px solid #eaeaea;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    background-image: url('public/hurricanecomic3.jpg');
+    background-size: 100% 100%;
+  }
+  
+  .card2a {
+    margin: 10px;
+    flex-basis: 45%;
+    padding: 200px 150px;
+    text-align: center;
+    color: #0fbfd600;
+    text-decoration: none;
+    border: 0px solid #eaeaea;
+    border-radius: 0px;
+    fill: 0px solid #eaeaea;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    background-image: url('public/hurricanecomic2.jpg');
+    background-size: 100% 100%;
+  }
+  .card1a {
+    margin: 10px;
+    flex-basis: 45%;
+    padding: 200px 150px;
+    text-align: center;
+    color: #0fbfd600;
+    text-decoration: none;
+    border: 0px solid #eaeaea;
+    border-radius: 0px;
+    fill: 0px solid #eaeaea;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    background-image: url('public/hurricanecomic1.jpg');
+    background-size: 100% 100%;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.cardcom {
+  margin: 10px;
+  flex-basis: 45%;
+  padding: 200px 150px;
+  text-align: center;
+  color: #0fbfd600;
+  text-decoration: none;
+  border: 0px solid #eaeaea;
+  border-radius: 0px;
+  fill: 0px solid #eaeaea;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-image: url('public/comingsoon.jpg');
+  background-size: 100% 100%;
+}
+
+.card1a:hover,
+.card1a:focus,
+.card1a:active {
   color: #ffffff00;
   border-color: #3387e7;
   text-decoration: underline;
-  background-image: url("https://i.ytimg.com/vi/-N9nV6XQ3c4/maxresdefault.jpg");
-  background-position: 50% 25%;
-  background-size: cover;
+  background-image: url('public/hurricanecomic1.jpg');
+  background-position: 0% 0%;
+  background-size: 100% 100%;
 }
 
 .card h3 {
