@@ -1,14 +1,15 @@
+import React from 'react'
 import styled from 'styled-components'
 
 
-const navbar = () => {
+const Navbar = () => {
     return (
-        <Nav>
+        <div>
             <h1>
                 Navbar
             </h1>
-        </Nav>
-    )
-}
+        </div>
+    );
+};
 
-export default navbar
+export default Navbar;
