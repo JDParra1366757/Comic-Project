@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Comicpage from 'src/components/Comicpage'
 import styled from 'styled-components'
 
 const Hero = styled.div`
@@ -27,11 +28,7 @@ export default function Home() {
         <title>Spiritbreakers</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero>
-           <a href="/persona3" className="card3">
-             dumdum
-          </a>
-      </Hero>
+      <Hero><Comicpage /></Hero> />
     </>
       )
 }

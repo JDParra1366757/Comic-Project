@@ -23,13 +23,10 @@ const Footer = () => {
         <FooterSection>
             <div>
                <Link  href="/persona3" passHref>
-                    <StyledLink>Persona 3</StyledLink>
+                    <StyledLink>Previous Page</StyledLink>
                </Link>
-               <Link  href="/persona4" passHref>
-                    <StyledLink>Persona 4</StyledLink>
-               </Link>
-               <Link  href="/persona5" passHref>
-                    <StyledLink>Persona 5</StyledLink>
+               <Link  href="/index" passHref>
+                    <StyledLink>Next Page</StyledLink>
                </Link>
             </div>
         </FooterSection>

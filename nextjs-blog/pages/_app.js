@@ -1,3 +1,4 @@
+import Comicpage from "src/components/Comicpage";
 import Layout from "src/components/layout";
 import "tailwindcss/tailwind.css";
 import '../src/Styles/styles.css'

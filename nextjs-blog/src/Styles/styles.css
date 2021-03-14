@@ -94,8 +94,10 @@ code {
   margin-top: 3rem;
 }
 
-.card3 {
-  padding: 480px 300px;
+.cardfinal {
+  margin: 10px;
+  flex-basis: 45%;
+  padding: 425px 300px;
   text-align: center;
   color: #0fbfd600;
   text-decoration: none;
@@ -104,35 +106,8 @@ code {
   fill: 0px solid #eaeaea;
   transition: color 0.15s ease, border-color 0.15s ease;
   background-image: url('public/hurricanecomic4.jpg');
-  background-size: 860px 1000px;
+  background-size:cover;
 }
-
-.card4 {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: center;
-  color: #fffc48;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  fill: 1px solid #eaeaea;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  background-image: url("https://www.color-hex.com/palettes/32325.png");
-}
-
-.card5 {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: center;
-  color: #fa0f0f;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  fill: 1px solid #eaeaea;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  background-image: url("https://www.color-hex.com/palettes/32325.png");}
 
 .card:hover,
 .card:focus,
@@ -144,29 +119,6 @@ code {
   background-position: 50% 25%;
   background-size: cover;
 }
-
-.card4:hover,
-.card4:focus,
-.card4:active {
-  color: #ffffff00;
-  border-color: #f3ff4f;
-  text-decoration: #ffffff00;
-  background-image: url("https://i.ytimg.com/vi/R0Xx80K55Ug/maxresdefault.jpg");
-  background-position: 50% 25%;
-  background-size: cover;
-}
-
-.card5:hover,
-.card5:focus,
-.card5:active {
-  color: #ffffff00;
-  border-color: #f30000;
-  text-decoration: underline;
-  background-image: url("https://i.ytimg.com/vi/aGWShuEptLM/maxresdefault.jpg");
-  background-position: center center;
-  background-size: cover;
-}
-
 
 .card h3 {
   margin: 0 0 1rem 0;
