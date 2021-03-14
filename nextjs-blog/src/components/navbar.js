@@ -26,7 +26,7 @@ const Navbar = () => {
         <Nav>
             <div>
                <Link  href="/" passHref>
-                    <StyledLink>Spiritbreakers</StyledLink>
+                    <StyledLink></StyledLink>
                </Link>
             </div>
         </Nav>

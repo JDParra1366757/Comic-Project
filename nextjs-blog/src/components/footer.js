@@ -14,8 +14,10 @@ const FooterSection = styled.div`
     align-items: center;
 `
 const StyledLink = styled.a`
+    font-family: monospace;
     padding: 0rem 2rem;
-    color: blue;
+    font-size: 20px;
+    color: black;
 `
 
 const Footer = ({linkprev, linknext}) => {
@@ -24,6 +26,9 @@ const Footer = ({linkprev, linknext}) => {
             <div>
                <Link  href = {linkprev} passHref>
                     <StyledLink>Previous Page</StyledLink>
+               </Link>
+               <Link  href = "/" passHref>
+                    <StyledLink>Latest Page</StyledLink>
                </Link>
                <Link  href = {linknext} passHref>
                     <StyledLink>Next Page</StyledLink>

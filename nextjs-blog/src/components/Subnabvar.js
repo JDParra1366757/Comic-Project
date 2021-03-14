@@ -16,8 +16,10 @@ const Nav = styled.nav`
     align-items: center;
 `
 const StyledLink = styled.a`
+    font-family: monospace;
+    font-size: 25px;
     padding: 0rem 10rem;
-    color: blue;
+    color: black;
 `
 
 
@@ -26,14 +28,17 @@ const Navbar = () => {
     return (
         <Nav>
             <div>
-               <Link  href="/persona3" passHref>
-                    <StyledLink>Persona 3</StyledLink>
+               <Link  href="/" passHref>
+                    <StyledLink>Home</StyledLink>
                </Link>
                <Link  href="/persona4" passHref>
-                    <StyledLink>Persona 4</StyledLink>
+                    <StyledLink>Archive</StyledLink>
                </Link>
                <Link  href="/persona5" passHref>
-                    <StyledLink>Persona 5</StyledLink>
+                    <StyledLink>Characters</StyledLink>
+               </Link>
+               <Link  href="/persona5" passHref>
+                    <StyledLink>Links</StyledLink>
                </Link>
             </div>
         </Nav>
