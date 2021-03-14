@@ -124,6 +124,35 @@ code {
   background-size:cover;
 }
 
+.card2 {
+  margin: 10px;
+  flex-basis: 45%;
+  padding: 425px 300px;
+  text-align: center;
+  color: #0fbfd600;
+  text-decoration: none;
+  border: 0px solid #eaeaea;
+  border-radius: 0px;
+  fill: 0px solid #eaeaea;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-image: url('public/hurricanecomic2.jpg');
+  background-size:cover;
+}
+.card1 {
+  margin: 10px;
+  flex-basis: 45%;
+  padding: 425px 300px;
+  text-align: center;
+  color: #0fbfd600;
+  text-decoration: none;
+  border: 0px solid #eaeaea;
+  border-radius: 0px;
+  fill: 0px solid #eaeaea;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-image: url('public/hurricanecomic1.jpg');
+  background-size:cover;
+}
+
 .card:hover,
 .card:focus,
 .card:active {

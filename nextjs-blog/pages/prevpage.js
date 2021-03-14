@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Comicpage from 'src/components/Comicpage'
+import Footer from 'src/components/footer'
 import styled from 'styled-components'
 
 const Hero = styled.div`
@@ -35,6 +36,7 @@ export default function Home() {
                 </a>
         </div>
       </Hero>
+      <Footer linkprev={"/page2"} linknext={"/"} />
     </>
       )
 }

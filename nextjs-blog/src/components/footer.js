@@ -8,7 +8,7 @@ const FooterSection = styled.div`
     background-repeat: no repeat;
     background-position: left;
     color: white;
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,14 +18,14 @@ const StyledLink = styled.a`
     color: blue;
 `
 
-const Footer = () => {
+const Footer = ({linkprev, linknext}) => {
     return (
         <FooterSection>
             <div>
-               <Link  href="/prevpage" passHref>
+               <Link  href = {linkprev} passHref>
                     <StyledLink>Previous Page</StyledLink>
                </Link>
-               <Link  href="/" passHref>
+               <Link  href = {linknext} passHref>
                     <StyledLink>Next Page</StyledLink>
                </Link>
             </div>

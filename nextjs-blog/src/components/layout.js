@@ -8,7 +8,6 @@ return(
      <Navbar />
      <Subnabvar />
      {children}
-     <Footer />
  </div>   
 )
 }
