@@ -28,7 +28,13 @@ export default function Home() {
         <title>Spiritbreakers</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero><Comicpage /></Hero> />
+      <Hero>
+      <div>
+                 <a href="/" className="cardprev">
+                    dumdum
+                </a>
+        </div>
+      </Hero>
     </>
       )
 }

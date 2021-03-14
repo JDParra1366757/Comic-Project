@@ -109,6 +109,21 @@ code {
   background-size:cover;
 }
 
+.cardprev {
+  margin: 10px;
+  flex-basis: 45%;
+  padding: 425px 300px;
+  text-align: center;
+  color: #0fbfd600;
+  text-decoration: none;
+  border: 0px solid #eaeaea;
+  border-radius: 0px;
+  fill: 0px solid #eaeaea;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-image: url('public/hurricanecomic4.jpg');
+  background-size:cover;
+}
+
 .card:hover,
 .card:focus,
 .card:active {

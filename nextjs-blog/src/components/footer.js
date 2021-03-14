@@ -22,10 +22,10 @@ const Footer = () => {
     return (
         <FooterSection>
             <div>
-               <Link  href="/persona3" passHref>
+               <Link  href="/prevpage" passHref>
                     <StyledLink>Previous Page</StyledLink>
                </Link>
-               <Link  href="/index" passHref>
+               <Link  href="/" passHref>
                     <StyledLink>Next Page</StyledLink>
                </Link>
             </div>
