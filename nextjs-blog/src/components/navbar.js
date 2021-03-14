@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Nav = styled.nav` 
     height: 80px;
-    background-image: url('practiceheadet.jpg'); 
+    background-image: url('navbar.jpg'); 
     background-size: 100% 100%;
     background-repeat: no repeat;
     background-position: left;

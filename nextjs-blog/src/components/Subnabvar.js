@@ -5,10 +5,10 @@ import Image from 'next/image'
 
 const Nav = styled.nav` 
     height: 80px;
-    background-image: url('practiceheadet.jpg'); 
-    background-size: 100% 100%;
+    background-image: url('kritasubnavbar.jpg'); 
+    background-size: fit;
     background-repeat: no repeat;
-    background-position: left;
+    background-position: 50% 0%;
     color: white;
     height: 60px;
     display: flex;
@@ -18,7 +18,7 @@ const Nav = styled.nav`
 const StyledLink = styled.a`
     font-family: monospace;
     font-size: 25px;
-    padding: 0rem 10rem;
+    padding: 0rem 7rem;
     color: black;
 `
 

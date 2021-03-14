@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import Link from 'next/link'
 
 const FooterSection = styled.div`
-    background-image: url('practiceheadet.jpg');
-    background-size: 100% 100%;
+    background-image: url('kritafooter.jpg');
+    background-size: fit;
     background-repeat: no repeat;
-    background-position: left;
+    background-position: 30% 0%;
     color: white;
     height: 50px;
     display: flex;
@@ -15,7 +15,7 @@ const FooterSection = styled.div`
 `
 const StyledLink = styled.a`
     font-family: monospace;
-    padding: 0rem 2rem;
+    padding: 0rem 5.5rem;
     font-size: 20px;
     color: black;
     font-weight: bold;

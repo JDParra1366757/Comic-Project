@@ -9,7 +9,7 @@ const Hero = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('practiceherop.jpg');  
+  background-image: url('hero.jpg');  
   background-size: 100% 100%;
   background-repeat: no repeat;
   background-position: left;
