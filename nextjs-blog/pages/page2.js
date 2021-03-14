@@ -26,8 +26,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Spiritbreakers</title>
-        <link rel="icon" href="/favicon.ico" />
+      <title>Gridlocked</title>
+        <link rel="icon" href="/icon.jpg" />
       </Head>
       <Hero>
       <div>

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Comicpage from 'src/components/Comicpage'
-import Footer from 'src/components/footer'
+import Footeralt from 'src/components/footeralt'
 import styled from 'styled-components'
 
 const Hero = styled.div`
@@ -30,13 +30,9 @@ export default function Home() {
         <link rel="icon" href="/icon.jpg" />
       </Head>
       <Hero>
-      <div>
-                 <a href="/page2" className="card1">
-                    dumdum
-                </a>
-        </div>
+
       </Hero>
-      <Footer linkprev={"/page1"} linknext={"/page2"} />
+      <Footeralt />
     </>
       )
 }
