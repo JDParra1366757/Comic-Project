@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const Comicpage = (pagenum) => {
+const Comicpage = ({link, pagina}) => {
     return (
             <div>
-                 <a href="/persona3" className="cardfinal">
+                 <a href={link} className={pagina}>
                     dumdum
                 </a>
             </div>
