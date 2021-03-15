@@ -40,10 +40,10 @@ export default function Home() {
                     <h3>Twitter</h3>
                 </a>
 
-                <a href="/abmwiki" className="cardface">
+                <a href="https://facebook.com" className="cardface">
                     <h3>Facebook</h3>
                 </a>
-                <a href="/abmwiki" className="cardwbt">
+                <a href="https://www.webtoons.com/en/" className="cardwbt">
                     <h3>Webtoon</h3>
                 </a>
                 </div>
