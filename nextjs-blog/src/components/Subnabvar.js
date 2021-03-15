@@ -34,10 +34,10 @@ const Navbar = () => {
                <Link  href="/archive" passHref>
                     <StyledLink>Archive</StyledLink>
                </Link>
-               <Link  href="/persona5" passHref>
+               <Link  href="/characters" passHref>
                     <StyledLink>Characters</StyledLink>
                </Link>
-               <Link  href="/persona5" passHref>
+               <Link  href="/" passHref>
                     <StyledLink>Links</StyledLink>
                </Link>
             </div>

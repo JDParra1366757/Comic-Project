@@ -32,7 +32,7 @@ const Footeralt = () => {
                <Link  href = "/" passHref>
                     <StyledLink>Return to Comic</StyledLink>
                </Link>
-               <Link  href = "/" passHref>
+               <Link  href = "/characters" passHref>
                     <StyledLink>Characters</StyledLink>
                </Link>
             </div>

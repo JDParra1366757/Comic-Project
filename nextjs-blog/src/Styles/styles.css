@@ -226,16 +226,69 @@ code {
   background-size: 100% 100%;
 }
 
-.card1a:hover,
-.card1a:focus,
-.card1a:active {
+.cardsvk {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #51ff00;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  fill: 1px solid #eaeaea;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-image: url("https://www.color-hex.com/palettes/32325.png");}
+
+
+.cardsvk:hover,
+.cardsvk:focus,
+.cardsvk:active {
   color: #ffffff00;
   border-color: #3387e7;
   text-decoration: underline;
-  background-image: url('public/hurricanecomic1.jpg');
+  background-image: url('public/closeupsvk.png');
+  padding: 40px 0px;
   background-position: 0% 0%;
   background-size: 100% 100%;
 }
+
+.cardabm {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #cf00ad;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  fill: 1px solid #eaeaea;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-image: url("https://www.color-hex.com/palettes/32325.png");}
+
+.cardabm:hover,
+.cardabm:focus,
+.cardabm:active {
+  color: #ffffff00;
+  border-color: #3387e7;
+  text-decoration: underline;
+  background-image: url('public/closeupabm.png');
+  padding: 40px 0px;
+  background-position: 0% 0%;
+  background-size: 100% 100%;}
+
+  .cardsvk {
+    margin: 10px;
+    flex-basis: 45%;
+    padding: 425px 300px;
+    text-align: center;
+    color: #0fbfd600;
+    text-decoration: none;
+    border: 0px solid #eaeaea;
+    border-radius: 0px;
+    fill: 0px solid #eaeaea;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    background-image: url('public/svkhyen.jpg');
+    background-size:cover;}
 
 .card h3 {
   margin: 0 0 1rem 0;
