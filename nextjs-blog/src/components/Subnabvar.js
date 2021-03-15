@@ -37,7 +37,7 @@ const Navbar = () => {
                <Link  href="/characters" passHref>
                     <StyledLink>Characters</StyledLink>
                </Link>
-               <Link  href="/" passHref>
+               <Link  href="/links" passHref>
                     <StyledLink>Links</StyledLink>
                </Link>
             </div>
