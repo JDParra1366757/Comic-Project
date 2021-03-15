@@ -35,7 +35,7 @@ export default function Home() {
       <Hero>
           <div className="container">
             <div className="grid">
-                <a href="/svkwiki" className="cardsvk">
+                <a href="/svkwiki" className="cardsvkfull">
                     <h3>SVK</h3>
                     <h1>The Newbie Hyena</h1>
                 </a>

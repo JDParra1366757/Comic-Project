@@ -276,10 +276,10 @@ code {
   background-position: 0% 0%;
   background-size: 100% 100%;}
 
-  .cardsvk {
+  .cardsvkfull {
     margin: 10px;
     flex-basis: 45%;
-    padding: 425px 300px;
+    padding: 325px 425px;
     text-align: center;
     color: #0fbfd600;
     text-decoration: none;
@@ -288,8 +288,22 @@ code {
     fill: 0px solid #eaeaea;
     transition: color 0.15s ease, border-color 0.15s ease;
     background-image: url('public/svkhyen.jpg');
-    background-size:cover;}
+    background-size: 100% 100%;}
 
+    .cardabmfull {
+      margin: 10px;
+      flex-basis: 45%;
+      padding: 325px 425px;
+      text-align: center;
+      color: #0fbfd600;
+      text-decoration: none;
+      border: 0px solid #eaeaea;
+      border-radius: 0px;
+      fill: 0px solid #eaeaea;
+      transition: color 0.15s ease, border-color 0.15s ease;
+      background-image: url('public/abmsnek.jpg');
+      background-size: 100% 100%;}
+  
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
